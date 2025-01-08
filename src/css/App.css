@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.App {
+    box-shadow: rgba(15, 126, 238, 0.2) 0px 8px 24px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #6b73ff 0%, #00ff88 100%);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header .logoside {
+    display: flex;
+    align-items: center;
+}
+
+.header .logoside h1 {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.header .logoside svg {
+    font-size: 1.5em;
+}
+
+.TodoList {
+    list-style: none;
+    padding: 0;
+}
+
+.TodoList li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.TodoList li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.TodoList li button {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.TodoList li button:hover {
+    background: #ff1a1a;
+}
