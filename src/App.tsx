@@ -1,8 +1,8 @@
 import { useState } from 'react'
-// import './App.css'
+import './App.css'
 import{ FaClipboardList, FaPen} from 'react-icons/fa'
 import TodoList from './components/TodoList'
-import"./css/App.css"
+
 
 
 function App() {
